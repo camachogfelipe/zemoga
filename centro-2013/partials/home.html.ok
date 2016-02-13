@@ -1,0 +1,35 @@
+<!-- home grid content -->
+<section class="home-content l-grid">
+	<?php
+		$counter = 1;
+    	$coh = centro_get_callouts(NULL, "homepage");
+    	$numCoh = count($coh);
+    	if ($numCoh <= 3) :
+    		foreach($coh as $co) :
+    			$itemClass = ($counter === 3) ? 'last-child' : '';
+
+    	?>
+	    <article class="grid-item <?php echo $itemClass; ?>">
+			<a href="#"><h2><?php echo $co['headline']; ?></h2></a>
+		<?php if ($co['media'] !== ""): ?>
+			<?php echo do_shortcode($co['media']); ?>
+		<?php else: ?>
+			<img src="<?php
+            	$image = centro_resize(NULL, $co['image'], 285, 150, true);
+                echo $image['url'];
+			?>" alt="<?php echo $co['headline']; ?>" >
+		<?php endif; ?>
+			<p>
+				<?php echo $co['text']; ?>
+			</p>
+		</article>
+
+    <?php
+    			$counter++;
+        	endforeach;
+    	endif;
+        
+    ?>
+
+</section>
+<!-- END home grid content -->

@@ -1,0 +1,48 @@
+<div class="template-content">
+	<!-- left sidebar -->
+	<aside>
+		<nav class="internal-nav">
+			<ul>
+				<li><a href="#"><em>&gt;</em> Culture Manifesto</a></li>
+				<li><a href="#"><em>&gt;</em> Benefits</a></li>
+				<li class="current"><a href="#"><em>&gt;</em> Open Positions</a></li>
+			</ul>
+		</nav>
+
+		<div class="callouts">
+			<a href="#"><img src="http://cambelt.co/180x150/AD+1?color=B24401" alt=""></a>
+			<a href="#"><img src="http://cambelt.co/180x150/AD+2?color=B24401" alt=""></a>
+		</div>
+	</aside>
+	<!-- ./left sidebar -->
+
+	<!-- template content -->
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		
+		<nav class="breadcrumb-nav">
+			<ul>
+				<li>
+					<a href="">Home</a> &gt;
+				</li>
+				<li class="breadcrumb-current">
+					<a href="">Career</a>
+				</li>
+			</ul>
+		</nav>	
+
+		<header class="entry-header">
+			<h1 class="page-title">Open Positions</h1>
+		</header>
+		
+		<p>Sed quam elit, hendrerit vitae rutrum ut, semper nec ligula. Curabitur vel massa leo. Vivamus adipiscing odio sed purus molestie eu adipiscing eros convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc pulvinar porttitor augue, quis tristique justo egestas tempor. Ut vel eros commodo turpis ultrices iaculis. Donec pharetra, massa nec varius gravida, tellus justo pellentesque nulla, at dictum magna purus non mauris. Vestibulum feugiat ullamcorper tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+		<!-- jobvite iframe -->
+		<iframe id="jobviteframe" src="http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qH39Vfwy&amp;cs=9MO9Vfwo&amp;nl=0&amp;jvresize=http://172.16.3.1:1007/wp-content/themes/centro-2013/partials/FrameResize.html" width="100%" height="500px" scrolling="no" frameborder="0" allowtransparency="”true”">Sorry, iframes are not supported.</iframe>
+
+		<?php
+		//include(locate_template('partial_jobvite.php'));
+		?>
+		<!-- ./ jobvite iframe -->
+	</article>
+	<!-- ./template content -->
+</div>

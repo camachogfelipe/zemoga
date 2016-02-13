@@ -1,0 +1,93 @@
+<div class="template-content template-our-offices">
+	<!-- left sidebar -->
+	<aside>
+		<nav class="internal-nav">
+			<ul>
+				<li><a href="#"><em>&gt;</em> Sibling page 1</a></li>
+				<li class="current"><a href="#"><em>&gt;</em> Sibling page 2</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 3</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 4</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 5</a></li>
+			</ul>
+		</nav>
+
+		<div class="callouts">
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+1?color=B24401" alt=""></a>
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+2?color=B24401" alt=""></a>
+		</div>
+	</aside>
+
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		
+		<nav class="breadcrumb-nav">
+			<ul>
+				<li>
+					<a href="">Home</a> &gt;
+				</li>
+				<li class="breadcrumb-current">
+					<a href="">Parent Category</a>
+				</li>
+			</ul>
+		</nav>	
+
+		<header class="entry-header">
+			<h1 class="page-title">Our Offices</h1>
+		</header>
+		
+		<section class="primary-content">
+			<p><strong>Praesent lacinia</strong> sem non eros auctor semper. Nulla consequat ullamcorper rutrum. Proin porta feugiat dui, ac elementum leo mattis et. Sed quam elit, hendrerit vitae rutrum ut, semper nec ligula. Curabitur vel massa leo. Vivamus adipiscing odio sed purus molestie eu adipiscing eros convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc pulvinar porttitor augue, quis tristique justo egestas tempor. Ut vel eros commodo turpis ultrices iaculis. Donec pharetra, massa nec varius gravida, tellus justo pellentesque nulla, at dictum magna purus non mauris. Vestibulum feugiat ullamcorper tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		</section>
+
+		<section class="secondary-content">
+			<img src="http://placehold.it/430x320" alt="by placehold" />
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ullam impedit omnis ipsum cum blanditiis possimus! Dicta ad esse corporis veniam neque repellendus tempore illum quasi doloremque. Saepe tempora quibusdam. </p>
+			<a href="#" class="default-btn small">
+				<em class="cta-arrow left icon">&raquo;</em>
+				<span>Back to the homepage</span>
+			</a>				
+		</section>
+		<aside class="social">
+			<h3>We are Social</h3>
+			<p>		
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			</p>
+
+			<nav class="social-nav dark l-inline">
+				<ul class="l-inline">
+					<li id="menu-item-8009" class="social-rss icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8009"><a title="RSS Feed" target="_blank" href="http://feeds.feedburner.com/centro/dzyj">RSS</a></li>
+					<li id="menu-item-8010" class="social-facebook icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8010"><a title="Facebook" target="_blank" href="http://www.facebook.com/centro.llc">Facebook</a></li>
+					<li id="menu-item-8011" class="social-twitter icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8011"><a title="Twitter" target="_blank" href="https://twitter.com/centro_media">Twitter</a></li>
+					<li id="menu-item-8012" class="social-linkedin icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8012"><a title="LinkedIn" target="_blank" href="http://www.linkedin.com/company/centro?goback=.cps_1277763480994_1&amp;trk=co_search_results">LinkedIn</a></li>
+					<li id="menu-item-8013" class="social-google icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8013"><a title="google" target="_blank" href="https://plus.google.com/u/0/b/109268885344393369109/109268885344393369109/posts">Google+</a></li>
+					<li id="menu-item-8014" class="social-vimeo icon menu-item menu-item-type-custom menu-item-object-custom menu-item-8014"><a title="Vimeo / Youtube" target="_blank" href="https://vimeo.com/channels/centro">Vimeo</a></li>
+				</ul>
+			</nav>
+		</aside>
+		
+		<aside class="newsletter">
+			<form action="">
+				<h4>Sign-up for the newsletter</h4>
+				<p>
+					Centro publishes three research-based, solution-oriented newsletters that provide advertising and media professionals a holistic overview of the advancements, trends, and issues facing the digital media industry.
+				</p>
+				<fieldset class="l-inline two-col-field">
+					<label for="email">E-mail</label>					
+					<input type="text" id="email" />
+				</fieldset>
+				<a href="#" class="default-btn small">
+					<span>Sign up now</span>
+					<em class="cta-arrow right icon">&raquo;</em>
+				</a>				
+			</form>
+		</aside>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- END home grid content -->	
+
+	</article>
+	<!-- ./ left sidebar -->
+</div>
+<!-- ./ template-xx -->
+

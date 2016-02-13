@@ -1,0 +1,118 @@
+<div class="template-content template-list">
+	<!-- left sidebar -->
+	<aside>
+		<nav class="internal-nav">
+			<ul>
+				<li><a href="#"><em>&gt;</em> Sibling page 1</a></li>
+				<li class="current"><a href="#"><em>&gt;</em> Sibling page 2</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 3</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 4</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 5</a></li>
+			</ul>
+		</nav>
+
+		<div class="callouts">
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+1?color=B24401" alt=""></a>
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+2?color=B24401" alt=""></a>
+		</div>
+	</aside>
+
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		
+		<nav class="breadcrumb-nav">
+			<ul>
+				<li>
+					<a href="">Home</a> &gt;
+				</li>
+				<li class="breadcrumb-current">
+					<a href="">Parent Category</a>
+				</li>
+			</ul>
+		</nav>	
+
+		<header class="entry-header">
+			<h1 class="page-title">Our Offices</h1>
+		</header>
+		
+		<section class="primary-content">
+			<p><strong>Praesent lacinia</strong> sem non eros auctor semper. Nulla consequat ullamcorper rutrum. Proin porta feugiat dui, ac elementum leo mattis et. Sed quam elit, hendrerit vitae rutrum ut, semper nec ligula. Curabitur vel massa leo. Vivamus adipiscing odio sed purus molestie eu adipiscing eros convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc pulvinar porttitor augue, quis tristique justo egestas tempor. Ut vel eros commodo turpis ultrices iaculis. Donec pharetra, massa nec varius gravida, tellus justo pellentesque nulla, at dictum magna purus non mauris. Vestibulum feugiat ullamcorper tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		</section>
+
+		<section class="list-content">	
+		<ul>
+			<li class="list-item">
+				<h4>This is a title, the title No.1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum omnis odio dolor blanditiis id iure cum atque provident tenetur eveniet! Error impedit officia obcaecati tempore. Nulla assumenda nostrum necessitatibus inventore.</p>
+				<ul class="footer l-inline">
+					<li>
+						<time datetime="2012-10-13">
+							<em class="icon">Date:</em><strong>October 13</strong>,2012
+						</time>
+					</li>
+					<li><address><em class="icon">Location</em><a href="#">Location</a></address></li>
+					<li><summary><em class="icon">more</em><a href="#">Read entire story</a></summary></li>
+				</ul>
+			</li>
+			<li class="list-item">
+				<h4>This is a title, the title No.2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam incidunt quas odio eligendi voluptatum dolorum tempora? Non amet perferendis id temporibus magnam iste sequi earum quas. Modi expedita praesentium totam.</p>
+				<ul class="footer l-inline">
+					<li>
+						<time datetime="2012-10-13">
+							<em class="icon">Date:</em><strong>October 13</strong>,2012
+						</time>
+					</li>
+					<li><address><em class="icon">Location</em><a href="#">Location</a></address></li>
+					<li><summary><em class="icon">more</em><a href="#">Read entire story</a></summary></li>
+				</ul>
+			</li>
+			<li class="list-item">
+				<h4>This is a title, the title No.3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis assumenda modi neque praesentium quam aut laudantium dolore suscipit nobis repellendus molestias tempora facere magnam in consequuntur nemo a enim! Facilis!</p>
+				<ul class="footer l-inline">
+					<li>
+						<time datetime="2012-10-13">
+							<em class="icon">Date:</em><strong>October 13</strong>,2012
+						</time>
+					</li>
+					<li><address><em class="icon">Location</em><a href="#">Location</a></address></li>
+					<li><summary><em class="icon">more</em><a href="#">Read entire story</a></summary></li>
+				</ul>
+			</li>
+			<li class="list-item">
+				<h4>This is a title, the title No.4</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cumque quibusdam adipisci voluptas culpa maxime unde ratione ex perspiciatis quidem minus qui quas architecto at dolorum laborum quis. Modi aperiam.</p>
+				<ul class="footer l-inline">
+					<li>
+						<time datetime="2012-10-13">
+							<em class="icon">Date:</em><strong>October 13</strong>,2012
+						</time>
+					</li>
+					<li><address><em class="icon">Location</em><a href="#">Location</a></address></li>
+					<li><summary><em class="icon">more</em><a href="#">Read entire story</a></summary></li>
+				</ul>
+			</li>
+			<li class="list-item">
+				<h4>This is a title, the title No.5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam ad eos magni inventore? Temporibus nihil dolores perspiciatis officiis nobis iste rem inventore dicta consequatur delectus ab non distinctio culpa.</p>
+				<ul class="footer l-inline">
+					<li>
+						<time datetime="2012-10-13">
+							<em class="icon">Date:</em><strong>October 13</strong>,2012
+						</time>
+					</li>
+					<li><address><em class="icon">Location</em><a href="#">Location</a></address></li>
+					<li><summary><em class="icon">more</em><a href="#">Read entire story</a></summary></li>
+				</ul>
+			</li>
+		</ul></section>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- END home grid content -->	
+
+	</article>
+	<!-- ./ left sidebar -->
+</div>
+<!-- ./ template-xx -->
+

@@ -1,0 +1,46 @@
+<div class="template-content template-landing">
+
+	<header class="entry-header">
+		<h1 class="page-title">This is the title for this landing page</h1>
+	</header>
+	
+	<!-- template content -->
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		<img src="http://cambelt.co/500x310/Image?color=#40AB44" alt="">
+
+		<div class="layout-content content">
+
+			<h2>Sed vitae neque quam. Maecenas faucibus rhoncus arcu ut elementum.</h2>
+
+			<p>Curabitur non mauris non lacus ullamcorper pretium sed sit amet lectus. Phasellus a magna eget sem vestibulum viverra. Donec neque ipsum, posuere at tempor et, gravida sit amet lorem: </p>
+
+			<ul>
+				<li>Integer dictum mauris risus, a cursus ante.</li>
+				<li>Fusce vel metus et justo gravida mattis sit amet quis diam.</li>
+				<li>Pellentesquehabitantmorbi.</li>
+				<li>Praesent eget urna vel est gravida egestas.</li>
+				<li>Ut dictum tortor ac nisi mattis vitae varius lacus interdum..</li>
+			</ul>
+		</div>
+
+	</article>
+	<!-- ./template content -->
+
+	<!-- right sidebar (form) -->
+	<aside>
+		<h2>Would you like to test our features for free? Request a free trial now.</h2>
+
+		<p>In venenatis libero vel est mattis nec varius justo facilisis. Pellente sque habitant morbi tristique egestas. Nulla erat nunc, vulputate:</p>
+
+		<div class="template-form">
+
+			<iframe src="https://planner.centro.net/agencies/new" width="100%" height="100%"></iframe>	
+
+		</div>
+
+	</aside>
+	<!-- ./ left sidebar -->
+</div>
+<!-- ./ template-xx -->
+
+<?php get_footer('landing'); ?>

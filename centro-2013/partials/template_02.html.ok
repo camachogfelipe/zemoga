@@ -1,0 +1,122 @@
+<div class="template-content template-grid">
+	<!-- left sidebar -->
+	<aside>
+		<nav class="internal-nav">
+			<ul>
+				<li><a href="#"><em>&gt;</em> Sibling page 1</a></li>
+				<li class="current"><a href="#"><em>&gt;</em> Sibling page 2</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 3</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 4</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 5</a></li>
+			</ul>
+		</nav>
+
+		<div class="callouts">
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+1?color=B24401" alt=""></a>
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+2?color=B24401" alt=""></a>
+		</div>
+	</aside>
+
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		
+		<nav class="breadcrumb-nav">
+			<ul>
+				<li>
+					<a href="">Home</a> &gt;
+				</li>
+				<li class="breadcrumb-current">
+					<a href="">Parent Category</a>
+				</li>
+			</ul>
+		</nav>	
+
+		<header class="entry-header">
+			<h1 class="page-title">This is the title for this section</h1>
+		</header>
+		
+		<p><strong>Praesent lacinia</strong> sem non eros auctor semper. Nulla consequat ullamcorper rutrum. Proin porta feugiat dui, ac elementum leo mattis et. Sed quam elit, hendrerit vitae rutrum ut, semper nec ligula. Curabitur vel massa leo. Vivamus adipiscing odio sed purus molestie eu adipiscing eros convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc pulvinar porttitor augue, quis tristique justo egestas tempor. Ut vel eros commodo turpis ultrices iaculis. Donec pharetra, massa nec varius gravida, tellus justo pellentesque nulla, at dictum magna purus non mauris. Vestibulum feugiat ullamcorper tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+<!-- grid content -->
+<section class="thumbnail-grid" data-src="wp-content/themes/centro-2013/scripts/test.json">
+	<!-- ul>(((figure>(a>img)+(a)figcaption))li*12) -->
+	<table class="content">
+		<tr>
+			<td>loading...</td>
+		</tr>
+	</table>
+	<ul class="paginator l-inline">
+		<li><a href="#first" title="Go to first set"><span class="paginator-first icon">first</span></a></li>
+		<li><a href="#prev" title="Go to previous set"><span class="paginator-prev icon">prev</span></a></li>
+		<li>
+			<ul class="pages l-inline">
+			</ul>
+		</li>
+		<li><a href="#next" title="Go to next set"><span class="paginator-next icon">next</span></a></li>
+		<li><a href="#last" title="Go to last set"><span class="paginator-last icon">last</span></a></li>
+	</ul>
+</section>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+/*
+	//	custom selectors - :viewable = let the user knows if an object is onscreen
+	$.extend($.expr[':'], {
+		viewable: function(el) {
+			var $e = $(el),
+				$w = $(window),
+				top = $e.offset().top,
+				height = $e.outerHeight(true),
+				windowTop = $w.scrollTop(),
+				windowScroll = windowTop - height,
+				windowHeight = windowTop + $w.height();
+
+			return(top > windowScroll && top < windowHeight);
+		}
+	});
+
+	// namespace
+	window.Centro = {
+		TIMEOUT: 200,
+		GRIDSIZE: 12
+	};
+
+	var $container = $('ul'),
+		$w = $(window),
+		scroll = $w.scrollTop(),
+		currentMaxElements = $container.data('max-items'),
+		maxProducts = 50,
+		updateInterval;
+
+	if(maxProducts > currentMaxElements) {
+		//$w.bind('scroll',onScroll);
+	}
+
+	function onScroll(event) {
+		if(!updateInterval) {
+			updateInterval = setInterval(updateGrid, Centro.TIMEOUT);
+			win.unbind('scroll');
+		}
+	}
+
+	function updateGrid() {
+		console.log('scroll');
+		var currentScroll = $w.scrollTop();
+
+		if(currentScroll > scroll) {
+			if($container.find('li:last-child').is(':viewable')) {
+				Centro.DataAccess.getItems();
+				currentMaxElements += GRIDSIZE;
+				scrolling = false;
+			}
+
+			scroll = currentScroll;
+		}
+	}
+*/	
+</script>
+<!-- END home grid content -->	
+
+	</article>
+	<!-- ./ left sidebar -->
+</div>
+<!-- ./ template-xx -->
+

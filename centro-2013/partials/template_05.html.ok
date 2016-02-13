@@ -1,0 +1,152 @@
+<div class="template-content template-our-offices">
+	<!-- left sidebar -->
+	<aside>
+		<nav class="internal-nav">
+			<ul>
+				<li><a href="#"><em>&gt;</em> Sibling page 1</a></li>
+				<li class="current"><a href="#"><em>&gt;</em> Sibling page 2</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 3</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 4</a></li>
+				<li><a href="#"><em>&gt;</em> Sibling page 5</a></li>
+			</ul>
+		</nav>
+
+		<div class="callouts">
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+1?color=B24401" alt=""></a>
+			<a href="#"><img src="http://cambelt.co/180x150/Call+out+2?color=B24401" alt=""></a>
+		</div>
+	</aside>
+
+	<article id="post-<?php the_ID(); ?>" <?php post_class('layout-standard'); ?>>
+		
+		<nav class="breadcrumb-nav">
+			<ul>
+				<li>
+					<a href="">Home</a> &gt;
+				</li>
+				<li class="breadcrumb-current">
+					<a href="">Parent Category</a>
+				</li>
+			</ul>
+		</nav>	
+
+		<header class="entry-header">
+			<h1 class="page-title">Our Offices</h1>
+		</header>
+		
+		<p><strong>Praesent lacinia</strong> sem non eros auctor semper. Nulla consequat ullamcorper rutrum. Proin porta feugiat dui, ac elementum leo mattis et. Sed quam elit, hendrerit vitae rutrum ut, semper nec ligula. Curabitur vel massa leo. Vivamus adipiscing odio sed purus molestie eu adipiscing eros convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc pulvinar porttitor augue, quis tristique justo egestas tempor. Ut vel eros commodo turpis ultrices iaculis. Donec pharetra, massa nec varius gravida, tellus justo pellentesque nulla, at dictum magna purus non mauris. Vestibulum feugiat ullamcorper tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+<!-- grid content -->
+<section class="offices-location">
+	<div class="map-wrapper">
+		<iframe id="gmap" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Centro+Headquarters+Chicago+222+W.+Hubbard+St&amp;aq=&amp;sll=40.74477,-73.988929&amp;sspn=0.009413,0.022724&amp;ie=UTF8&amp;hq=Centro+Headquarters+Chicago+222+W.+Hubbard+St&amp;hnear=&amp;radius=15000&amp;t=m&amp;cid=10354101757267349184&amp;z=13&amp;iwloc=&amp;z=16&amp;output=embed"></iframe>
+	</div>		
+	<section class="l-grid">
+		<ul>
+			<li class="grid-item">
+				<dl>
+					<dt>
+						<h4>
+							<a class="current" target="gmap" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Centro+Headquarters+Chicago+222+W.+Hubbard+St&amp;aq=&amp;sll=40.74477,-73.988929&amp;sspn=0.009413,0.022724&amp;ie=UTF8&amp;hq=Centro+Headquarters+Chicago+222+W.+Hubbard+St&amp;hnear=&amp;radius=15000&amp;t=m&amp;cid=10354101757267349184&amp;z=13&amp;iwloc=&amp;z=16&amp;output=embed"><em class="active icon">^</em>
+								Midwest
+							</a>
+						</h4>
+					</dt>
+					<dd>
+						<div class="vcard">
+							<div class="org">Centro Headquarters</div>
+							<div class="adr">
+								<div class="street-address">222 W. Hubbard St.<br/>Suite 400</div>
+								<span class="locality">Chicago</span>, 
+								<span class="region">IL</span> 
+								<span class="postal-code">60654</span>
+							</div>
+							<div class="tel">Phone: <a title="Call to Number" href="callto:+13124231565">312-423-1565</a></div>
+							<a class="email" href="mailto:info@centro.net">info@centro.net</a>
+						</div>
+					</dd>
+				</dl>			
+			</li>
+			<li class="grid-item">
+				<dl>
+					<dt>
+						<h4>
+							<a target="gmap" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Centro+New+York+22+West+21st+St.&amp;aq=&amp;sll=41.893525,-87.640643&amp;sspn=0.009248,0.022724&amp;ie=UTF8&amp;hq=Centro&amp;hnear=22+W+21st+St,+New+York,+10010&amp;t=m&amp;iwloc=&amp;z=16&amp;output=embed"><em class="active icon">^</em>
+								East
+							</a>
+						</h4>
+					</dt>
+					<dd>
+						<div class="vcard">
+							<div class="org">Centro New York</div>
+							<div class="adr">
+								<div class="street-address">22 West 21st St.<br/>7th Floor</div>
+								<span class="locality">New York</span>, 
+								<span class="region">NY</span>
+								<span class="postal-code">10010</span>
+							</div>
+							<div class="tel">Phone: <a title="Call to Number (if application able to make )" href="callto:+12127919450<">212-791-9450</a></div>
+							<a class="email" href="mailto:info@centro.net">info@centro.net</a>
+						</div>
+					</dd>
+				</dl>			
+			</li>
+			<li class="grid-item">
+				<dl>
+					<dt>
+						<h4>
+							<a target="gmap" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=CdfEWyhdf8wUFWQ29AEdDhg7-iklNXdx4JhOhjFOGafwvvWLkw&amp;q=2207+Commerce+St,+Dallas,+TX+75201&amp;aq=&amp;sll=32.780979,-96.796696&amp;sspn=0.010445,0.022724&amp;ie=UTF8&amp;hq=&amp;hnear=2207+Commerce+St,+Dallas,+Texas+75201&amp;t=m&amp;iwloc=&amp;z=16&amp;output=embed"><em class="active icon">^</em>
+								South
+							</a>
+						</h4>
+					</dt>
+					<dd>
+						<div class="vcard">
+							<div class="org">Centro Dallas</div>
+							<div class="adr">
+								<div class="street-address">2207 Commerce St.</div>
+								<span class="locality">Dallas</span>, 
+								<span class="region">TX</span>
+								<span class="postal-code">75201</span>
+							</div>
+							<div class="tel">Phone: <a title="Call to Number (if application able to make )" href="callto:+139728630336">972-863-0336</a></div>
+							<a class="email" href="mailto:info@centro.net">info@centro.net</a>
+						</div>
+					</dd>
+				</dl>			
+			</li>
+			<li class="grid-item">
+				<dl>
+					<dt>
+						<h4>
+							<a target="gmap" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2500+Broadway+St.+Santa+Monica+CA+90404&amp;aq=&amp;sll=34.051961,-118.371896&amp;sspn=0.164698,0.363579&amp;ie=UTF8&amp;hq=&amp;hnear=2500+Broadway+St,+Santa+Monica,+California+90404&amp;t=m&amp;iwloc=&amp;z=16&amp;output=embed"><em class="active icon">^</em>
+								West
+							</a>
+						</h4>
+					</dt>
+					<dd>
+						<div class="vcard">
+							<div class="org">Centro Los Angeles</div>
+							<div class="adr">
+								<div class="street-address">2500 Broadway St.<br/>Building F, Suite F-125</div>
+								<span class="locality">Santa Monica</span>, 
+								<span class="region">CA</span>
+								<span class="postal-code">90404</span>
+							</div>
+							<div class="tel">Phone: <a title="Call to Number (if application able to make )" href="callto:+13106229714	">310-622-9714	</a></div>
+							<a class="email" href="mailto:info@centro.net">info@centro.net</a>
+						</div>
+					</dd>
+				</dl>			
+			</li>			
+		</ul>
+	</section>
+</section>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- END home grid content -->	
+
+	</article>
+	<!-- ./ left sidebar -->
+</div>
+<!-- ./ template-xx -->
+
